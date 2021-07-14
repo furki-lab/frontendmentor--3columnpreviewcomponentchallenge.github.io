@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+.attribution { font-size: 11px; text-align:center; 
+position: absolute;
+top: 500px;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+body{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(174, 190, 190);
+    
+}
+
+
+h1{
+    font-family: "Open Sans Condensed", sans-serif;
+    color: #fff;
+    font-size: 30px;
+    margin-left: 30px;
+    font-weight:800;
+    text-transform: uppercase;
+  
+    
+}
+   
+p{  
+    color: #c3d2f0;
+    width: 200px;
+    margin-left: 30px;
+    font-size: 15px;
+    font-family: sans-serif;
+    line-height: 25px;
+   
+}
+.sutun{
+    
+    
+    height: 300px;
+    display: flex;
+    border-radius: 50px;
+
+
+   
+    
+}
+
+.sag{
+    background-color: #e28827;
+    margin: 0px 0px 25px;
+    height: 400px;
+    width: 250px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+}
+.sag p{
+    color: burlywood;
+}
+.sag .btn{
+    border-color: burlywood;
+}
+.sol .btn{
+    border-color:#014141 ;
+}
+.orta .btn{
+    border-color: #01686f;
+}
+.sag img{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.orta img{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.sol img{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.orta{
+    background-color: #01686f;
+    height: 400px;
+    width: 250px;
+    
+    
+}
+
+.sol{
+    background-color: #014141;
+    height: 400px;
+    width: 250px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+    
+}
+    
+    .btn{
+        border: none;
+        background: #ffffff;
+        background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+        background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
+        background-image: -ms-linear-gradient(top, #ffffff, #ffffff);
+        background-image: -o-linear-gradient(top, #ffffff, #ffffff);
+        background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+        -webkit-border-radius: 60;
+        -moz-border-radius: 60;
+        border-radius: 60px;
+        font-family: Georgia;
+        color: #e28827;
+        font-size: 24px;
+        background: #ffffff;
+        padding: 5px 20px 5px 20px;
+        text-decoration:none;
+        margin-left: 30px;
+        margin-top: 30px;
+        transition: all 0.1s
+                
+       
+
+    }
+    .btn:hover{
+        transform: scale(1.2);
+        
+    }
+   .btn2 .btn {
+        color:#01686f}
+     .btn3   .btn{
+            color:#014141 ;
+        }
+    
+    
+      
